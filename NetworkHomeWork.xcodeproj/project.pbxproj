@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		449201F3267BBDFD00292AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449201F2267BBDFD00292AA8 /* AppDelegate.swift */; };
 		449201F5267BBDFD00292AA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449201F4267BBDFD00292AA8 /* SceneDelegate.swift */; };
-		449201F7267BBDFD00292AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449201F6267BBDFD00292AA8 /* ViewController.swift */; };
+		449201F7267BBDFD00292AA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449201F6267BBDFD00292AA8 /* MainViewController.swift */; };
 		449201FA267BBDFD00292AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449201F8267BBDFD00292AA8 /* Main.storyboard */; };
 		449201FC267BBDFF00292AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449201FB267BBDFF00292AA8 /* Assets.xcassets */; };
 		449201FF267BBDFF00292AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449201FD267BBDFF00292AA8 /* LaunchScreen.storyboard */; };
+		44920207267BBFBF00292AA8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44920206267BBFBF00292AA8 /* NetworkManager.swift */; };
+		44920209267BC3FE00292AA8 /* SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44920208267BC3FE00292AA8 /* SingleTon.swift */; };
+		4493F0BD268484750033A6A9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0BC268484750033A6A9 /* SecondViewController.swift */; };
+		4493F0C0268484AD0033A6A9 /* PresenterSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0BF268484AD0033A6A9 /* PresenterSecondVC.swift */; };
+		4493F0C2268485100033A6A9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0C1268485100033A6A9 /* ThirdViewController.swift */; };
+		4493F0C52684852C0033A6A9 /* PresenterThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0C42684852C0033A6A9 /* PresenterThirdVC.swift */; };
+		4493F0C7268485B90033A6A9 /* CellSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0C6268485B90033A6A9 /* CellSecondVC.swift */; };
+		4493F0C9268485CF0033A6A9 /* CellThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493F0C8268485CF0033A6A9 /* CellThirdVC.swift */; };
+		44A3B4DA2683C23C00048E00 /* PresenterMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3B4D92683C23C00048E00 /* PresenterMainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		449201EF267BBDFD00292AA8 /* NetworkHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449201F2267BBDFD00292AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		449201F4267BBDFD00292AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		449201F6267BBDFD00292AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		449201F6267BBDFD00292AA8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		449201F9267BBDFD00292AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		449201FB267BBDFF00292AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449201FE267BBDFF00292AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44920200267BBDFF00292AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44920206267BBFBF00292AA8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		44920208267BC3FE00292AA8 /* SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTon.swift; sourceTree = "<group>"; };
+		4493F0BC268484750033A6A9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4493F0BF268484AD0033A6A9 /* PresenterSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterSecondVC.swift; sourceTree = "<group>"; };
+		4493F0C1268485100033A6A9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4493F0C42684852C0033A6A9 /* PresenterThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterThirdVC.swift; sourceTree = "<group>"; };
+		4493F0C6268485B90033A6A9 /* CellSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSecondVC.swift; sourceTree = "<group>"; };
+		4493F0C8268485CF0033A6A9 /* CellThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellThirdVC.swift; sourceTree = "<group>"; };
+		44A3B4D92683C23C00048E00 /* PresenterMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,46 @@
 			children = (
 				449201F2267BBDFD00292AA8 /* AppDelegate.swift */,
 				449201F4267BBDFD00292AA8 /* SceneDelegate.swift */,
-				449201F6267BBDFD00292AA8 /* ViewController.swift */,
+				44920208267BC3FE00292AA8 /* SingleTon.swift */,
+				44920206267BBFBF00292AA8 /* NetworkManager.swift */,
 				449201F8267BBDFD00292AA8 /* Main.storyboard */,
+				4493F0C3268485140033A6A9 /* ThirdVC */,
+				4493F0BE2684847C0033A6A9 /* SecondVC */,
+				44A3B4DB2683C27700048E00 /* MainVC */,
 				449201FB267BBDFF00292AA8 /* Assets.xcassets */,
 				449201FD267BBDFF00292AA8 /* LaunchScreen.storyboard */,
 				44920200267BBDFF00292AA8 /* Info.plist */,
 			);
 			path = NetworkHomeWork;
+			sourceTree = "<group>";
+		};
+		4493F0BE2684847C0033A6A9 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				4493F0BC268484750033A6A9 /* SecondViewController.swift */,
+				4493F0C6268485B90033A6A9 /* CellSecondVC.swift */,
+				4493F0BF268484AD0033A6A9 /* PresenterSecondVC.swift */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		4493F0C3268485140033A6A9 /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				4493F0C1268485100033A6A9 /* ThirdViewController.swift */,
+				4493F0C8268485CF0033A6A9 /* CellThirdVC.swift */,
+				4493F0C42684852C0033A6A9 /* PresenterThirdVC.swift */,
+			);
+			path = ThirdVC;
+			sourceTree = "<group>";
+		};
+		44A3B4DB2683C27700048E00 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				449201F6267BBDFD00292AA8 /* MainViewController.swift */,
+				44A3B4D92683C23C00048E00 /* PresenterMainVC.swift */,
+			);
+			path = MainVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +188,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449201F7267BBDFD00292AA8 /* ViewController.swift in Sources */,
+				44920207267BBFBF00292AA8 /* NetworkManager.swift in Sources */,
+				4493F0C2268485100033A6A9 /* ThirdViewController.swift in Sources */,
+				4493F0C7268485B90033A6A9 /* CellSecondVC.swift in Sources */,
+				449201F7267BBDFD00292AA8 /* MainViewController.swift in Sources */,
+				44A3B4DA2683C23C00048E00 /* PresenterMainVC.swift in Sources */,
 				449201F3267BBDFD00292AA8 /* AppDelegate.swift in Sources */,
+				4493F0C52684852C0033A6A9 /* PresenterThirdVC.swift in Sources */,
+				4493F0BD268484750033A6A9 /* SecondViewController.swift in Sources */,
+				4493F0C9268485CF0033A6A9 /* CellThirdVC.swift in Sources */,
+				44920209267BC3FE00292AA8 /* SingleTon.swift in Sources */,
 				449201F5267BBDFD00292AA8 /* SceneDelegate.swift in Sources */,
+				4493F0C0268484AD0033A6A9 /* PresenterSecondVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
